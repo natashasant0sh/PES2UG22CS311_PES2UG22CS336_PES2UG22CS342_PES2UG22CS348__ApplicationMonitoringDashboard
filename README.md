@@ -1,4 +1,4 @@
-# PES2UG22CS311_PES2UG22CS336_PES2UG22CS342_PES2UG22CS348__ApplicationMonitoringDashboard
+# app-monitor
 
 ## run and test apache-kafka:
 ```bash
@@ -27,4 +27,6 @@ docker run -d --name=kafka -p 9092:9092 apache/kafka
 ## Run Python Scripts Locally(Uncontainerized - In separate Terminals)
 ```bash
 python simulate_requests.py
+python producer.py
+python consumer.py
 ```
